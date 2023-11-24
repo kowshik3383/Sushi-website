@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-x6RGTrRrSd4+qQMfkgbZToS4HJzETPjtoZMn5Qp2W0RJ8k4RMPVVbRiO9D24Oc2QxGF+7M9lRVwXsL1jteoN5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      rel="stylesheet"
+    />
+    <style></style>
+  </head>
+  <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <div
+      class="nav"
+      style="
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      "
+      data-aos="zoom-in"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header">
+        <div class="nav-title">Sushi</div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <div
+        class="nav-links"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#AboutUs">About Us</a>
+        <a href="#OurSpecials">Specials</a>
+        <a href="#contactus">Contact Us</a>
+      </div>
+    </div>
+
+    <div
+      class="hero"
+      data-aos="zoom-in"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
+      <h1 style="text-shadow: 2px 2px rgb(18, 17, 17)">
+        Ocean Fresh <br />
+        Sushi & Sashimi
+      </h1>
+      <p style="line-height: 2rem; font-size: 1.5rem">
+        Welcome to our exquisite sushi haven, <br />
+        where every roll is a piece of art <br />
+        crafted with passion and precision.
+      </p>
+    </div>
+    <a
+      class="menu"
+      href="/"
+      id="menu"
+      style="
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
+        margin-top: 18%;
+        color: #ff3d3d;
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: 2px 2px white;
+        font-weight: 600;
+        @media (min-width: 512px) and (min-height: 800px) {
+          display: none;
+        }
+      "
+      data-aos="zoom-in"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+      >Menu</a
+    >
+    <div
+      class="menu-container"
+      data-aos="zoom-in"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
+      <div
+        class="menu-item"
+        style="
+          background-image: url(image3.jpg);
+          margin-top: 10%;
+          margin-left: 5rem;
+          margin-right: 5rem;
+          border-radius: 1rem;
+        "
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h2>Spicy Tuna Roll</h2>
+        <p>
+          Fresh tuna mixed with spicy mayo, rolled with seaweed and rice, topped
+          with avocado slices.
+        </p>
+        <p>Price: $12.99</p>
+        <button class="button" style="color: black; font-size: 1.25rem">
+          <span class="button-content">Order Now </span>
+        </button>
+      </div>
+
+      <div
+        class="menu-item -2"
+        style="
+          background-image: url(image.jpg);
+          margin-top: 10%;
+          margin-left: 5rem;
+          margin-right: 5rem;
+          border-radius: 1rem;
+        "
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h2>Dragon Roll</h2>
+        <p>
+          Shrimp tempura, avocado, and cucumber rolled with seaweed and rice,
+          topped with eel and eel sauce.
+        </p>
+        <p>Price: $15.99</p>
+        <button class="button">
+          <span class="button-content" style="color: black; font-size: 1.25rem"
+            >Order Now
+          </span>
+        </button>
+      </div>
+      <div
+        class="menu-item -2"
+        style="
+          background-image: url(image2.jpg);
+          font-family: 'Vina Sans', monospace;
+          margin-top: 10%;
+          margin-left: 5rem;
+          margin-right: 5rem;
+          border-radius: 1rem;
+        "
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h2 style="font-family: 'Vina Sans', monospace">Dynamite Roll</h2>
+        <p>
+          Ingredients: Shrimp tempura, spicy tuna, avocado, and cucumber, often
+          topped with spicy mayo and eel sauce.
+        </p>
+        <p>Price: $15</p>
+        <button class="button" style="color: black; font-size: 1.25rem">
+          <span class="button-content">Order Now </span>
+        </button>
+      </div>
+      <div
+        class="menu-item -2"
+        style="
+          background-image: url(image3.jpg);
+          margin-top: 10%;
+          margin-left: 5rem;
+          margin-right: 5rem;
+          border-radius: 1rem;
+        "
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h2>California Roll</h2>
+        <p>
+          Ingredients: Crab or imitation crab, avocado, cucumber, rice, seaweed.
+        </p>
+        <p>Price: $20</p>
+        <button class="button" style="color: black; font-size: 1.25rem">
+          <span class="button-content">Order Now</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="AboutUs">
+      <a
+        href="/"
+        id="AboutUs"
+        style="
+          display: flex;
+          justify-content: center;
+          font-size: 5rem;
+          color: #ff3d3d;
+          font-family: 'Courier New', Courier, monospace;
+          text-shadow: 2px 2px white;
+          font-weight: 600;
+          margin-top: 7%;
+        "
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        About Us</a
+      >
+    </div>
+    <div
+      class="container"
+      data-aos="zoom-in"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
+      <img src="sddefault.jpg" alt="Description of your image" />
+      <div class="content">
+        <h2
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          About Us
+        </h2>
+        <p style="line-height: 1.6rem">
+          Welcome to our Sushi restaurent, where passion meets precision in
+          the<br />
+          art of sushi creation. Established in 2003, we take pride in<br />
+          delivering an authentic Japanese culinary experience to our valued<br />
+          customers.<br />
+        </p>
+        <h2>Our Story</h2>
+        <p style="line-height: 1.6rem">
+          At the heart of our journey is a dedication to the rich traditions of
+          <br />
+          Japanese cuisine and a commitment to quality. Our story begins with<br />
+          コウシク, whose love for sushi and the culinary arts inspired<br />
+          the creation of sushi restaurent. With a vision to blend<br />
+          traditional flavors with innovative techniques.<br />
+        </p>
+      </div>
+    </div>
+
+    <style>
+      .container {
+        display: flex;
+        align-items: center;
+        text-wrap: nowrap;
+      }
+      .container p {
+        font-family: "Courier New", Courier, monospace;
+      }
+      img {
+        max-width: 100%; /* Make sure the image doesn't exceed its container */
+      }
+
+      .content {
+        margin-left: 10%; /* Adjust the margin as needed for spacing between image and content */
+      }
+
+      /* Optional: Add more styles to format your content as needed */
+      h2 {
+        color: #fff9f9; /* Example text color for content title */
+        margin-top: 0%;
+        font-size: 2rem;
+
+        /* font-family: 'Poppins', sans-serif; */
+      }
+
+      p {
+        color: #ffffff; /* Example text color for content text */
+      }
+    </style>
+    <a
+      href="#"
+      id="OurSpecials"
+      style="
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
+        color: #ff3d3d;
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: 2px 2px white;
+        font-weight: 600;
+        margin-top: 7%;
+      "
+      >Specials</a
+    >
+
+    <section
+      class="card-container"
+      data-aos="zoom-in"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
+      <div
+        class="card"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h1>Spider Roll</h1>
+        <p>Soft-shell crab, avocado, cucumber, sprouts, and spicy mayo.</p>
+      </div>
+
+      <div
+        class="card"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h1>Rainbow Roll</h1>
+        <p>
+          Crab or imitation crab, avocado, cucumber, rolled in seaweed and rice
+        </p>
+      </div>
+
+      <div
+        class="card"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h1>Dragon Roll</h1>
+        <p>Eel, avocado, cucumber, topped with thinly sliced avocado</p>
+      </div>
+
+      <div
+        class="card"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h1>California Roll</h1>
+        <p>Crab or imitation crab, avocado, cucumber, rice, seaweed.</p>
+      </div>
+
+      <div
+        class="card"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h1>Kappa Maki</h1>
+        <p>Cucumber, rice, seaweed.</p>
+      </div>
+
+      <div
+        class="card"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h1>Tekka Maki</h1>
+        <p>Ingredients: Tuna, rice, seaweed.</p>
+      </div>
+
+      <div
+        class="card"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h1>Tekka Maki</h1>
+        <p>Ingredients: Tuna, rice, seaweed.</p>
+      </div>
+
+      <div
+        class="card"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h1>Tekka Maki</h1>
+        <p>Ingredients: Tuna, rice, seaweed.</p>
+      </div>
+    </section>
+    <link rel="stylesheet" href="style.css" />
+
+    <section
+      id="contactus"
+      data-aos="zoom-in"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
+      <div class="container">
+        <div class="contactInfo">
+          <div>
+            <h2>Contact Info</h2>
+            <ul class="info">
+              <li>
+                <span><img src="/images/location.png" /></span>
+                <span
+                  >184 Ippokratous Street<br />
+                  Athens, Gr<br />
+                  11472</span
+                >
+              </li>
+              <li>
+                <span><img src="/images/mail.png" /></span>
+                <!-- <span>nassosanagn@gmail.com</span> -->
+                <span
+                  ><a href="mailto: kowshikvalipireddy@gmail.com"
+                    >kowshikvalipireddy@gmail.com</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span><img src="/images/call.png" /></span>
+                <span>8328107601</span>
+              </li>
+            </ul>
+          </div>
+          <ul class="sci">
+            <li>
+              <a href="https://www.instagram.com/_kowshik_v/"
+                ><img src="/images/1.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/_kowshik_v/"
+                ><img src="/images/3.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com"><img src="/images/2.png" /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/kowshikvalipireddy/"
+                ><img src="/images/5.png"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="contactForm">
+          <h2>Send a Message</h2>
+          <div class="formBox">
+            <div class="inputBox w50">
+              <input type="text" name="" required />
+              <span>First Name</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="text" required />
+              <span>Last Name</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="email" required />
+              <span>Email Address</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="text" required />
+              <span>Mobile Number</span>
+            </div>
+            <div class="inputBox w100">
+              <textarea required></textarea>
+              <span>Write your message here...</span>
+            </div>
+            <div class="inputBox w100">
+              <input type="submit" value="Send" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
